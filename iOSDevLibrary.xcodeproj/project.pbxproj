@@ -13,6 +13,7 @@
 		DF1FFCB72C6A42FF00C52627 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DF1FFCB62C6A42FF00C52627 /* Base */; };
 		DF1FFCB92C6A430000C52627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1FFCB82C6A430000C52627 /* Assets.xcassets */; };
 		DF1FFCBC2C6A430000C52627 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DF1FFCBB2C6A430000C52627 /* Base */; };
+		DF1FFCC42C6A43E600C52627 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = DF1FFCC32C6A43E600C52627 /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DF1FFCB82C6A430000C52627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF1FFCBB2C6A430000C52627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF1FFCBD2C6A430000C52627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1FFCC32C6A43E600C52627 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		DF1FFCA32C6A42FF00C52627 = {
 			isa = PBXGroup;
 			children = (
+				DF1FFCC32C6A43E600C52627 /* readme.md */,
 				DF1FFCAE2C6A42FF00C52627 /* iOSDevLibrary */,
 				DF1FFCAD2C6A42FF00C52627 /* Products */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				DF1FFCB92C6A430000C52627 /* Assets.xcassets in Resources */,
 				DF1FFCBC2C6A430000C52627 /* Base in Resources */,
+				DF1FFCC42C6A43E600C52627 /* readme.md in Resources */,
 				DF1FFCB72C6A42FF00C52627 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
