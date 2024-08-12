@@ -21,6 +21,7 @@
 		DFA7E0422C6A3B0200E573B6 /* KakaoSDKTemplate in Frameworks */ = {isa = PBXBuildFile; productRef = DFA7E0412C6A3B0200E573B6 /* KakaoSDKTemplate */; };
 		DFA7E0442C6A3B0200E573B6 /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = DFA7E0432C6A3B0200E573B6 /* KakaoSDKUser */; };
 		DFA7E04C2C6A3F0600E573B6 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = DFA7E04B2C6A3F0600E573B6 /* SnapKit-Dynamic */; };
+		DFD747792C6A5FC900D9B8EE /* SnapKit-Dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = DFA7E04B2C6A3F0600E573B6 /* SnapKit-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		DFF5E59B2C6A341D00BC777A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF5E59A2C6A341D00BC777A /* AppDelegate.swift */; };
 		DFF5E59D2C6A341D00BC777A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF5E59C2C6A341D00BC777A /* SceneDelegate.swift */; };
 		DFF5E59F2C6A341D00BC777A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF5E59E2C6A341D00BC777A /* ViewController.swift */; };
@@ -28,6 +29,20 @@
 		DFF5E5A42C6A341E00BC777A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF5E5A32C6A341E00BC777A /* Assets.xcassets */; };
 		DFF5E5A72C6A341E00BC777A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DFF5E5A62C6A341E00BC777A /* Base */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFD7477A2C6A5FC900D9B8EE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DFD747792C6A5FC900D9B8EE /* SnapKit-Dynamic in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DFA7E0242C6A38DE00E573B6 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
@@ -108,6 +123,7 @@
 				DFF5E5932C6A341D00BC777A /* Sources */,
 				DFF5E5942C6A341D00BC777A /* Frameworks */,
 				DFF5E5952C6A341D00BC777A /* Resources */,
+				DFD7477A2C6A5FC900D9B8EE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
