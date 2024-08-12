@@ -57,6 +57,7 @@
 		DF1FFCEB2C6A449700C52627 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF1FFCED2C6A449700C52627 /* SocialLogin.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SocialLogin.xcodeproj; sourceTree = "<group>"; };
 		DF1FFCFD2C6A457B00C52627 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DF1FFCFF2C6A45FF00C52627 /* Config2.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config2.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +108,7 @@
 			children = (
 				DF1FFCE12C6A449700C52627 /* AppDelegate.swift */,
 				DF1FFCE22C6A449700C52627 /* Assets.xcassets */,
+				DF1FFCFF2C6A45FF00C52627 /* Config2.xcconfig */,
 				DF1FFCE32C6A449700C52627 /* Config.xcconfig */,
 				DF1FFCE42C6A449700C52627 /* Info.plist */,
 				DF1FFCE52C6A449700C52627 /* KakaoAuthVM.swift */,
