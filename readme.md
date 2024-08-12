@@ -7,7 +7,7 @@ iOSDevLibrary는 iOS 앱 개발에 필수적인 커스텀 모듈들을 모아둔
 
 ## 폴더 구조
 
-- `SocialLogin`: Google, Facebook, Apple, Kakao 등의 소셜 로그인을 손쉽게 구현할 수 있는 모듈이 포함된 폴더입니다.
+- [`SocialLogin`](https://github.com/indextrown/iOSDevLibrary/tree/main/SocialLogin): Google, Facebook, Apple, Kakao 등의 소셜 로그인을 손쉽게 구현할 수 있는 모듈이 포함된 폴더입니다.
 - 기타 커스텀 모듈 (추가 예정)
 
 ## 앞으로 추가될 모듈
