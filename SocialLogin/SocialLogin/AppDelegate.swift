@@ -35,14 +35,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     // ios 13이상으로 생성된 프로젝트라면 필수 기입
     // url을 가져와서 url이 카카오 스킴이랑 일치하면 웹뷰를 열어서 인증한다
-//    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
-//        if let url = URLContexts.first?.url {
-//            if (AuthApi.isKakaoTalkLoginUrl(url)) {
-//                _ = AuthController.handleOpenUrl(url: url)
-//            }
-//        }
-//    }
-//    
+    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
+        if let url = URLContexts.first?.url {
+            if (AuthApi.isKakaoTalkLoginUrl(url)) {
+                _ = AuthController.handleOpenUrl(url: url)
+            }
+        }
+    }
+    
 
     // MARK: UISceneSession Lifecycle
 
