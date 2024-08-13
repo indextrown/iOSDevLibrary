@@ -32,6 +32,7 @@ class ViewController: UIViewController {
 //        return btn
 //    }()
     
+    // 로그인 버튼
     lazy var kakaoLoginButton: UIButton = {
         let btn = UIButton()
         
@@ -53,7 +54,6 @@ class ViewController: UIViewController {
         return btn
     }()
 
-    
     // 로그아웃 버튼
     lazy var kakaoLogoutButton: UIButton = {
         let btn = UIButton()

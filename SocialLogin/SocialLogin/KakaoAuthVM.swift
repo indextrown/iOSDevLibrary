@@ -17,11 +17,12 @@ class KakaoAuthVM: ObservableObject {
     // 로그인 상태 여부
     @Published var isLoggedIn: Bool = false
     
+    // 로그인 라벨
     lazy var loginStatusInfo: AnyPublisher<String?, Never> = $isLoggedIn.compactMap{$0 ? "로그인 상태" : "로그아웃 상태"}.eraseToAnyPublisher()
     
-    init() {
-        print("KakaoAuthVM - handleKakaoLogin() called")
-    }
+//    init() {
+//        print("KakaoAuthVM - handleKakaoLogin() called")
+//    }
     
     // 카카오톡 앱으로 로그인 인증
     func kakaoLoginWithApp() async -> Bool {
@@ -55,8 +56,9 @@ class KakaoAuthVM: ObservableObject {
     func kakaoLoginWithAccount() async -> Bool {
         
         await withCheckedContinuation { continuation in
-            UserApi.shared.loginWithKakaoAccount {(oauthToken, error) in
-                DispatchQueue.main.async {
+            DispatchQueue.main.async {
+                UserApi.shared.loginWithKakaoAccount {(oauthToken, error) in
+                    
                     if let error = error {
                         print(error)
                         continuation.resume(returning: false)
@@ -95,8 +97,6 @@ class KakaoAuthVM: ObservableObject {
         
     } // login
     
-    
-    
     @MainActor
     func KakaoLogout() {
         Task {
@@ -105,10 +105,6 @@ class KakaoAuthVM: ObservableObject {
             }
         }
     } // logout
-    
-    
-    
-    
     
     // logout
     func handleKakaoLogout() async -> Bool {
