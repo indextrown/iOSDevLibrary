@@ -3,7 +3,6 @@
 
 이 프로젝트는 iOS 앱 개발에 필수적인 커스텀 모듈들을 모아, 개발자가 자주 필요로 하는 기능들을 손쉽게 구현할 수 있도록 돕는 프로젝트입니다.
 
-
 ## 폴더 구조
 
 - [`SocialLogin`](https://github.com/indextrown/iOSDevLibrary/tree/main/SocialLogin): Google, Facebook, Apple, Kakao 등의 소셜 로그인을 손쉽게 구현할 수 있는 모듈이 포함된 폴더입니다.
