@@ -3,8 +3,9 @@
 
 이 프로젝트는 iOS 앱 개발에 필수적인 커스텀 모듈들을 모아, 개발자가 자주 필요로 하는 기능들을 손쉽게 구현할 수 있도록 돕는 프로젝트입니다.
 
-
-
+<img src="https://github.com/user-attachments/assets/79955c50-a7b7-4a0d-b900-5eb1da6c5f2b" alt="Simulator Screen Recording - iPhone 15 Pro Max - 2024-08-13 at 20 07 43" style="width: 200px;"> | 
+:--------------:|
+**1. Social Login** | 
 
 ## 폴더 구조
 
@@ -28,9 +29,7 @@
 
 
 
-<img src="https://github.com/user-attachments/assets/79955c50-a7b7-4a0d-b900-5eb1da6c5f2b" alt="Simulator Screen Recording - iPhone 15 Pro Max - 2024-08-13 at 20 07 43" style="width: 200px;"> | 
-:--------------:|
-**1. Social Login** | 
+
 
 
 
