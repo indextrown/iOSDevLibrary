@@ -24,6 +24,7 @@
 개선 사항이나 버그 수정에 대한 제안은 언제든 환영합니다. 프로젝트에 대한 질문이 있으시면, 직접 연락 주시기 바랍니다.
 
 <img src="https://github.com/user-attachments/assets/79955c50-a7b7-4a0d-b900-5eb1da6c5f2b" alt="Simulator Screen Recording - iPhone 15 Pro Max - 2024-08-13 at 20 07 43" style="width: 200px;">  
+:--------------:|
 **1. Social Login**
 
 
