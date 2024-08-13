@@ -31,6 +31,7 @@ class ViewController: UIViewController {
 //
 //        return btn
 //    }()
+    
     lazy var kakaoLoginButton: UIButton = {
         let btn = UIButton()
         
@@ -38,7 +39,7 @@ class ViewController: UIViewController {
         btn.setTitle("", for: .normal)
         
         // 이미지 설정
-        btn.setImage(UIImage(named: "test"), for: .normal)
+        btn.setImage(UIImage(named: "kakao_login_ico"), for: .normal)
         
         // 버튼의 스타일 설정
         btn.configuration = nil // `nil`로 설정하여 `configuration` 스타일을 제거
@@ -81,8 +82,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
+        // 다크 모드 설정 무시하고 항상 라이트 모드로 설정
+        overrideUserInterfaceStyle = .light
+        
+        // 배경색을 흰색으로 설정
+        view.backgroundColor = .white
+                
         // 라벨과 70만큼 공간을 띄우겠다
         kakaoLoginStatusLabel.snp.makeConstraints { make in
             make.height.greaterThanOrEqualTo(70)
