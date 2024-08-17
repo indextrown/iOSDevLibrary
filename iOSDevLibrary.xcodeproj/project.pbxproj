@@ -15,42 +15,42 @@
 		DF1FFCBC2C6A430000C52627 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DF1FFCBB2C6A430000C52627 /* Base */; };
 		DF1FFCFE2C6A457B00C52627 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DF1FFCFD2C6A457B00C52627 /* .gitignore */; };
 		DF1FFD012C6A471400C52627 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = DF1FFD002C6A471400C52627 /* readme.md */; };
-		DF6943652C705C610013DD68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943512C705C600013DD68 /* AppDelegate.swift */; };
-		DF6943662C705C610013DD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6943522C705C600013DD68 /* Assets.xcassets */; };
-		DF6943672C705C610013DD68 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DF6943532C705C600013DD68 /* Config.xcconfig */; };
-		DF6943682C705C610013DD68 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF6943542C705C600013DD68 /* Info.plist */; };
-		DF6943692C705C610013DD68 /* KakaoAuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943552C705C600013DD68 /* KakaoAuthVM.swift */; };
-		DF69436A2C705C610013DD68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6943572C705C600013DD68 /* LaunchScreen.storyboard */; };
-		DF69436B2C705C610013DD68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6943592C705C600013DD68 /* Main.storyboard */; };
-		DF69436C2C705C610013DD68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF69435A2C705C600013DD68 /* SceneDelegate.swift */; };
-		DF69436D2C705C610013DD68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF69435B2C705C600013DD68 /* ViewController.swift */; };
-		DF69436E2C705C610013DD68 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = DF69435D2C705C600013DD68 /* readme.md */; };
-		DF6943832C705CA50013DD68 /* KakaoAuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF69436F2C705CA50013DD68 /* KakaoAuthVM.swift */; };
-		DF6943842C705CA50013DD68 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943702C705CA50013DD68 /* LoginView.swift */; };
-		DF6943852C705CA50013DD68 /* MyAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943712C705CA50013DD68 /* MyAppDelegate.swift */; };
-		DF6943862C705CA50013DD68 /* MySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943722C705CA50013DD68 /* MySceneDelegate.swift */; };
-		DF6943872C705CA50013DD68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6943742C705CA50013DD68 /* Preview Assets.xcassets */; };
-		DF6943882C705CA50013DD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6943762C705CA50013DD68 /* Assets.xcassets */; };
-		DF6943892C705CA50013DD68 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DF6943772C705CA50013DD68 /* Config.xcconfig */; };
-		DF69438A2C705CA50013DD68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943782C705CA50013DD68 /* ContentView.swift */; };
-		DF69438B2C705CA50013DD68 /* Social_Login_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943792C705CA50013DD68 /* Social_Login_SwiftUIApp.swift */; };
-		DF69438C2C705CA50013DD68 /* Social-Login-SwiftUI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF69437C2C705CA50013DD68 /* Social-Login-SwiftUI-Info.plist */; };
+		DF6943B72C705D620013DD68 /* KakaoAuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF69438E2C705D620013DD68 /* KakaoAuthVM.swift */; };
+		DF6943B82C705D620013DD68 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF69438F2C705D620013DD68 /* LoginView.swift */; };
+		DF6943B92C705D620013DD68 /* MyAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943902C705D620013DD68 /* MyAppDelegate.swift */; };
+		DF6943BA2C705D620013DD68 /* MySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943912C705D620013DD68 /* MySceneDelegate.swift */; };
+		DF6943BB2C705D620013DD68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6943932C705D620013DD68 /* Preview Assets.xcassets */; };
+		DF6943BC2C705D620013DD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6943952C705D620013DD68 /* Assets.xcassets */; };
+		DF6943BD2C705D620013DD68 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DF6943962C705D620013DD68 /* Config.xcconfig */; };
+		DF6943BE2C705D620013DD68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943972C705D620013DD68 /* ContentView.swift */; };
+		DF6943BF2C705D620013DD68 /* Social_Login_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943982C705D620013DD68 /* Social_Login_SwiftUIApp.swift */; };
+		DF6943C02C705D620013DD68 /* Social-Login-SwiftUI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF69439B2C705D620013DD68 /* Social-Login-SwiftUI-Info.plist */; };
+		DF6943C12C705D620013DD68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF69439D2C705D620013DD68 /* AppDelegate.swift */; };
+		DF6943C22C705D620013DD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF69439E2C705D620013DD68 /* Assets.xcassets */; };
+		DF6943C32C705D620013DD68 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DF69439F2C705D620013DD68 /* Config.xcconfig */; };
+		DF6943C42C705D620013DD68 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF6943A02C705D620013DD68 /* Info.plist */; };
+		DF6943C52C705D620013DD68 /* KakaoAuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943A12C705D620013DD68 /* KakaoAuthVM.swift */; };
+		DF6943C62C705D620013DD68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6943A32C705D620013DD68 /* LaunchScreen.storyboard */; };
+		DF6943C72C705D620013DD68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6943A52C705D620013DD68 /* Main.storyboard */; };
+		DF6943C82C705D620013DD68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943A62C705D620013DD68 /* SceneDelegate.swift */; };
+		DF6943C92C705D620013DD68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943A72C705D620013DD68 /* ViewController.swift */; };
+		DF6943CA2C705D620013DD68 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = DF6943A92C705D620013DD68 /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DF6943632C705C610013DD68 /* PBXContainerItemProxy */ = {
+		DF6943B22C705D620013DD68 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DF69435E2C705C600013DD68 /* SocialLogin.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DFF5E5972C6A341D00BC777A;
-			remoteInfo = SocialLogin;
-		};
-		DF6943812C705CA50013DD68 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DF69437B2C705CA50013DD68 /* Social_Login_SwiftUI.xcodeproj */;
+			containerPortal = DF69439A2C705D620013DD68 /* Social_Login_SwiftUI.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DF3D2A812C6DC6E9005BB937;
 			remoteInfo = Social_Login_SwiftUI;
+		};
+		DF6943B52C705D620013DD68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF6943AA2C705D620013DD68 /* SocialLogin.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DFF5E5972C6A341D00BC777A;
+			remoteInfo = SocialLogin;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -65,28 +65,28 @@
 		DF1FFCBD2C6A430000C52627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF1FFCFD2C6A457B00C52627 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		DF1FFD002C6A471400C52627 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
-		DF6943512C705C600013DD68 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF6943522C705C600013DD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF6943532C705C600013DD68 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
-		DF6943542C705C600013DD68 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF6943552C705C600013DD68 /* KakaoAuthVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoAuthVM.swift; sourceTree = "<group>"; };
-		DF6943562C705C600013DD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DF6943582C705C600013DD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF69435A2C705C600013DD68 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF69435B2C705C600013DD68 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF69435D2C705C600013DD68 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
-		DF69435E2C705C600013DD68 /* SocialLogin.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SocialLogin.xcodeproj; sourceTree = "<group>"; };
-		DF69436F2C705CA50013DD68 /* KakaoAuthVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoAuthVM.swift; sourceTree = "<group>"; };
-		DF6943702C705CA50013DD68 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		DF6943712C705CA50013DD68 /* MyAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAppDelegate.swift; sourceTree = "<group>"; };
-		DF6943722C705CA50013DD68 /* MySceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySceneDelegate.swift; sourceTree = "<group>"; };
-		DF6943742C705CA50013DD68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DF6943762C705CA50013DD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF6943772C705CA50013DD68 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
-		DF6943782C705CA50013DD68 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DF6943792C705CA50013DD68 /* Social_Login_SwiftUIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Social_Login_SwiftUIApp.swift; sourceTree = "<group>"; };
-		DF69437B2C705CA50013DD68 /* Social_Login_SwiftUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Social_Login_SwiftUI.xcodeproj; sourceTree = "<group>"; };
-		DF69437C2C705CA50013DD68 /* Social-Login-SwiftUI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Social-Login-SwiftUI-Info.plist"; sourceTree = "<group>"; };
+		DF69438E2C705D620013DD68 /* KakaoAuthVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoAuthVM.swift; sourceTree = "<group>"; };
+		DF69438F2C705D620013DD68 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DF6943902C705D620013DD68 /* MyAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAppDelegate.swift; sourceTree = "<group>"; };
+		DF6943912C705D620013DD68 /* MySceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySceneDelegate.swift; sourceTree = "<group>"; };
+		DF6943932C705D620013DD68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF6943952C705D620013DD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF6943962C705D620013DD68 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		DF6943972C705D620013DD68 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF6943982C705D620013DD68 /* Social_Login_SwiftUIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Social_Login_SwiftUIApp.swift; sourceTree = "<group>"; };
+		DF69439A2C705D620013DD68 /* Social_Login_SwiftUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Social_Login_SwiftUI.xcodeproj; sourceTree = "<group>"; };
+		DF69439B2C705D620013DD68 /* Social-Login-SwiftUI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Social-Login-SwiftUI-Info.plist"; sourceTree = "<group>"; };
+		DF69439D2C705D620013DD68 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF69439E2C705D620013DD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF69439F2C705D620013DD68 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		DF6943A02C705D620013DD68 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6943A12C705D620013DD68 /* KakaoAuthVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoAuthVM.swift; sourceTree = "<group>"; };
+		DF6943A22C705D620013DD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF6943A42C705D620013DD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF6943A62C705D620013DD68 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF6943A72C705D620013DD68 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF6943A92C705D620013DD68 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		DF6943AA2C705D620013DD68 /* SocialLogin.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SocialLogin.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 		DF1FFCA32C6A42FF00C52627 = {
 			isa = PBXGroup;
 			children = (
-				DFD747692C6A5F6400D9B8EE /* SocialLogin */,
+				DF6943AC2C705D620013DD68 /* Social_Login */,
 				DF1FFD002C6A471400C52627 /* readme.md */,
 				DF1FFCFD2C6A457B00C52627 /* .gitignore */,
 				DF1FFCAE2C6A42FF00C52627 /* iOSDevLibrary */,
@@ -133,97 +133,97 @@
 			path = iOSDevLibrary;
 			sourceTree = "<group>";
 		};
-		DF69435C2C705C600013DD68 /* SocialLogin */ = {
+		DF6943922C705D620013DD68 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				DF6943512C705C600013DD68 /* AppDelegate.swift */,
-				DF6943522C705C600013DD68 /* Assets.xcassets */,
-				DF6943532C705C600013DD68 /* Config.xcconfig */,
-				DF6943542C705C600013DD68 /* Info.plist */,
-				DF6943552C705C600013DD68 /* KakaoAuthVM.swift */,
-				DF6943572C705C600013DD68 /* LaunchScreen.storyboard */,
-				DF6943592C705C600013DD68 /* Main.storyboard */,
-				DF69435A2C705C600013DD68 /* SceneDelegate.swift */,
-				DF69435B2C705C600013DD68 /* ViewController.swift */,
-			);
-			path = SocialLogin;
-			sourceTree = "<group>";
-		};
-		DF69435F2C705C600013DD68 /* SocialLogin_UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				DF69435C2C705C600013DD68 /* SocialLogin */,
-				DF69435D2C705C600013DD68 /* readme.md */,
-				DF69435E2C705C600013DD68 /* SocialLogin.xcodeproj */,
-			);
-			path = SocialLogin_UIKit;
-			sourceTree = SOURCE_ROOT;
-		};
-		DF6943602C705C600013DD68 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DF6943642C705C610013DD68 /* SocialLogin.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		DF6943732C705CA50013DD68 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				DF69436F2C705CA50013DD68 /* KakaoAuthVM.swift */,
-				DF6943702C705CA50013DD68 /* LoginView.swift */,
-				DF6943712C705CA50013DD68 /* MyAppDelegate.swift */,
-				DF6943722C705CA50013DD68 /* MySceneDelegate.swift */,
+				DF69438E2C705D620013DD68 /* KakaoAuthVM.swift */,
+				DF69438F2C705D620013DD68 /* LoginView.swift */,
+				DF6943902C705D620013DD68 /* MyAppDelegate.swift */,
+				DF6943912C705D620013DD68 /* MySceneDelegate.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
 		};
-		DF6943752C705CA50013DD68 /* Preview Content */ = {
+		DF6943942C705D620013DD68 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				DF6943742C705CA50013DD68 /* Preview Assets.xcassets */,
+				DF6943932C705D620013DD68 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DF69437A2C705CA50013DD68 /* Social_Login_SwiftUI */ = {
+		DF6943992C705D620013DD68 /* Social_Login_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				DF6943732C705CA50013DD68 /* Login */,
-				DF6943752C705CA50013DD68 /* Preview Content */,
-				DF6943762C705CA50013DD68 /* Assets.xcassets */,
-				DF6943772C705CA50013DD68 /* Config.xcconfig */,
-				DF6943782C705CA50013DD68 /* ContentView.swift */,
-				DF6943792C705CA50013DD68 /* Social_Login_SwiftUIApp.swift */,
+				DF6943922C705D620013DD68 /* Login */,
+				DF6943942C705D620013DD68 /* Preview Content */,
+				DF6943952C705D620013DD68 /* Assets.xcassets */,
+				DF6943962C705D620013DD68 /* Config.xcconfig */,
+				DF6943972C705D620013DD68 /* ContentView.swift */,
+				DF6943982C705D620013DD68 /* Social_Login_SwiftUIApp.swift */,
 			);
 			path = Social_Login_SwiftUI;
 			sourceTree = "<group>";
 		};
-		DF69437D2C705CA50013DD68 /* Social_Login_SwiftUI */ = {
+		DF69439C2C705D620013DD68 /* Social_Login_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				DF69437A2C705CA50013DD68 /* Social_Login_SwiftUI */,
-				DF69437B2C705CA50013DD68 /* Social_Login_SwiftUI.xcodeproj */,
-				DF69437C2C705CA50013DD68 /* Social-Login-SwiftUI-Info.plist */,
+				DF6943992C705D620013DD68 /* Social_Login_SwiftUI */,
+				DF69439A2C705D620013DD68 /* Social_Login_SwiftUI.xcodeproj */,
+				DF69439B2C705D620013DD68 /* Social-Login-SwiftUI-Info.plist */,
 			);
 			path = Social_Login_SwiftUI;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
-		DF69437E2C705CA50013DD68 /* Products */ = {
+		DF6943A82C705D620013DD68 /* SocialLogin */ = {
 			isa = PBXGroup;
 			children = (
-				DF6943822C705CA50013DD68 /* Social_Login_SwiftUI.app */,
+				DF69439D2C705D620013DD68 /* AppDelegate.swift */,
+				DF69439E2C705D620013DD68 /* Assets.xcassets */,
+				DF69439F2C705D620013DD68 /* Config.xcconfig */,
+				DF6943A02C705D620013DD68 /* Info.plist */,
+				DF6943A12C705D620013DD68 /* KakaoAuthVM.swift */,
+				DF6943A32C705D620013DD68 /* LaunchScreen.storyboard */,
+				DF6943A52C705D620013DD68 /* Main.storyboard */,
+				DF6943A62C705D620013DD68 /* SceneDelegate.swift */,
+				DF6943A72C705D620013DD68 /* ViewController.swift */,
+			);
+			path = SocialLogin;
+			sourceTree = "<group>";
+		};
+		DF6943AB2C705D620013DD68 /* SocialLogin_UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DF6943A82C705D620013DD68 /* SocialLogin */,
+				DF6943A92C705D620013DD68 /* readme.md */,
+				DF6943AA2C705D620013DD68 /* SocialLogin.xcodeproj */,
+			);
+			path = SocialLogin_UIKit;
+			sourceTree = "<group>";
+		};
+		DF6943AC2C705D620013DD68 /* Social_Login */ = {
+			isa = PBXGroup;
+			children = (
+				DF69439C2C705D620013DD68 /* Social_Login_SwiftUI */,
+				DF6943AB2C705D620013DD68 /* SocialLogin_UIKit */,
+			);
+			path = Social_Login;
+			sourceTree = "<group>";
+		};
+		DF6943AD2C705D620013DD68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF6943B32C705D620013DD68 /* Social_Login_SwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DFD747692C6A5F6400D9B8EE /* SocialLogin */ = {
+		DF6943AF2C705D620013DD68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF69437D2C705CA50013DD68 /* Social_Login_SwiftUI */,
-				DF69435F2C705C600013DD68 /* SocialLogin_UIKit */,
+				DF6943B62C705D620013DD68 /* SocialLogin.app */,
 			);
-			path = SocialLogin;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,12 +274,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = DF69437E2C705CA50013DD68 /* Products */;
-					ProjectRef = DF69437B2C705CA50013DD68 /* Social_Login_SwiftUI.xcodeproj */;
+					ProductGroup = DF6943AD2C705D620013DD68 /* Products */;
+					ProjectRef = DF69439A2C705D620013DD68 /* Social_Login_SwiftUI.xcodeproj */;
 				},
 				{
-					ProductGroup = DF6943602C705C600013DD68 /* Products */;
-					ProjectRef = DF69435E2C705C600013DD68 /* SocialLogin.xcodeproj */;
+					ProductGroup = DF6943AF2C705D620013DD68 /* Products */;
+					ProjectRef = DF6943AA2C705D620013DD68 /* SocialLogin.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -290,18 +290,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		DF6943642C705C610013DD68 /* SocialLogin.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SocialLogin.app;
-			remoteRef = DF6943632C705C610013DD68 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DF6943822C705CA50013DD68 /* Social_Login_SwiftUI.app */ = {
+		DF6943B32C705D620013DD68 /* Social_Login_SwiftUI.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = Social_Login_SwiftUI.app;
-			remoteRef = DF6943812C705CA50013DD68 /* PBXContainerItemProxy */;
+			remoteRef = DF6943B22C705D620013DD68 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF6943B62C705D620013DD68 /* SocialLogin.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SocialLogin.app;
+			remoteRef = DF6943B52C705D620013DD68 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -311,21 +311,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF6943662C705C610013DD68 /* Assets.xcassets in Resources */,
-				DF6943672C705C610013DD68 /* Config.xcconfig in Resources */,
 				DF1FFCFE2C6A457B00C52627 /* .gitignore in Resources */,
-				DF69436E2C705C610013DD68 /* readme.md in Resources */,
-				DF69438C2C705CA50013DD68 /* Social-Login-SwiftUI-Info.plist in Resources */,
-				DF6943872C705CA50013DD68 /* Preview Assets.xcassets in Resources */,
-				DF69436B2C705C610013DD68 /* Main.storyboard in Resources */,
-				DF6943882C705CA50013DD68 /* Assets.xcassets in Resources */,
+				DF6943C02C705D620013DD68 /* Social-Login-SwiftUI-Info.plist in Resources */,
 				DF1FFCB92C6A430000C52627 /* Assets.xcassets in Resources */,
+				DF6943C32C705D620013DD68 /* Config.xcconfig in Resources */,
 				DF1FFCBC2C6A430000C52627 /* Base in Resources */,
+				DF6943C22C705D620013DD68 /* Assets.xcassets in Resources */,
 				DF1FFD012C6A471400C52627 /* readme.md in Resources */,
-				DF69436A2C705C610013DD68 /* LaunchScreen.storyboard in Resources */,
+				DF6943C72C705D620013DD68 /* Main.storyboard in Resources */,
+				DF6943C62C705D620013DD68 /* LaunchScreen.storyboard in Resources */,
+				DF6943BD2C705D620013DD68 /* Config.xcconfig in Resources */,
+				DF6943C42C705D620013DD68 /* Info.plist in Resources */,
+				DF6943BC2C705D620013DD68 /* Assets.xcassets in Resources */,
+				DF6943BB2C705D620013DD68 /* Preview Assets.xcassets in Resources */,
+				DF6943CA2C705D620013DD68 /* readme.md in Resources */,
 				DF1FFCB72C6A42FF00C52627 /* Base in Resources */,
-				DF6943892C705CA50013DD68 /* Config.xcconfig in Resources */,
-				DF6943682C705C610013DD68 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,19 +336,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF6943832C705CA50013DD68 /* KakaoAuthVM.swift in Sources */,
-				DF6943652C705C610013DD68 /* AppDelegate.swift in Sources */,
-				DF69438A2C705CA50013DD68 /* ContentView.swift in Sources */,
-				DF6943852C705CA50013DD68 /* MyAppDelegate.swift in Sources */,
-				DF6943692C705C610013DD68 /* KakaoAuthVM.swift in Sources */,
-				DF6943842C705CA50013DD68 /* LoginView.swift in Sources */,
-				DF69436D2C705C610013DD68 /* ViewController.swift in Sources */,
+				DF6943B72C705D620013DD68 /* KakaoAuthVM.swift in Sources */,
 				DF1FFCB42C6A42FF00C52627 /* ViewController.swift in Sources */,
-				DF69436C2C705C610013DD68 /* SceneDelegate.swift in Sources */,
-				DF6943862C705CA50013DD68 /* MySceneDelegate.swift in Sources */,
-				DF69438B2C705CA50013DD68 /* Social_Login_SwiftUIApp.swift in Sources */,
+				DF6943BE2C705D620013DD68 /* ContentView.swift in Sources */,
 				DF1FFCB02C6A42FF00C52627 /* AppDelegate.swift in Sources */,
+				DF6943B82C705D620013DD68 /* LoginView.swift in Sources */,
+				DF6943C52C705D620013DD68 /* KakaoAuthVM.swift in Sources */,
+				DF6943B92C705D620013DD68 /* MyAppDelegate.swift in Sources */,
+				DF6943BA2C705D620013DD68 /* MySceneDelegate.swift in Sources */,
+				DF6943C92C705D620013DD68 /* ViewController.swift in Sources */,
 				DF1FFCB22C6A42FF00C52627 /* SceneDelegate.swift in Sources */,
+				DF6943C12C705D620013DD68 /* AppDelegate.swift in Sources */,
+				DF6943BF2C705D620013DD68 /* Social_Login_SwiftUIApp.swift in Sources */,
+				DF6943C82C705D620013DD68 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,18 +371,18 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		DF6943572C705C600013DD68 /* LaunchScreen.storyboard */ = {
+		DF6943A32C705D620013DD68 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF6943562C705C600013DD68 /* Base */,
+				DF6943A22C705D620013DD68 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		DF6943592C705C600013DD68 /* Main.storyboard */ = {
+		DF6943A52C705D620013DD68 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF6943582C705C600013DD68 /* Base */,
+				DF6943A42C705D620013DD68 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
