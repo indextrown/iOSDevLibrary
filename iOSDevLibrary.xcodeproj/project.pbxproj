@@ -15,42 +15,102 @@
 		DF1FFCBC2C6A430000C52627 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DF1FFCBB2C6A430000C52627 /* Base */; };
 		DF1FFCFE2C6A457B00C52627 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DF1FFCFD2C6A457B00C52627 /* .gitignore */; };
 		DF1FFD012C6A471400C52627 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = DF1FFD002C6A471400C52627 /* readme.md */; };
-		DF6943B72C705D620013DD68 /* KakaoAuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF69438E2C705D620013DD68 /* KakaoAuthVM.swift */; };
-		DF6943B82C705D620013DD68 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF69438F2C705D620013DD68 /* LoginView.swift */; };
-		DF6943B92C705D620013DD68 /* MyAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943902C705D620013DD68 /* MyAppDelegate.swift */; };
-		DF6943BA2C705D620013DD68 /* MySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943912C705D620013DD68 /* MySceneDelegate.swift */; };
-		DF6943BB2C705D620013DD68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6943932C705D620013DD68 /* Preview Assets.xcassets */; };
-		DF6943BC2C705D620013DD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6943952C705D620013DD68 /* Assets.xcassets */; };
-		DF6943BD2C705D620013DD68 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DF6943962C705D620013DD68 /* Config.xcconfig */; };
-		DF6943BE2C705D620013DD68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943972C705D620013DD68 /* ContentView.swift */; };
-		DF6943BF2C705D620013DD68 /* Social_Login_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943982C705D620013DD68 /* Social_Login_SwiftUIApp.swift */; };
-		DF6943C02C705D620013DD68 /* Social-Login-SwiftUI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF69439B2C705D620013DD68 /* Social-Login-SwiftUI-Info.plist */; };
-		DF6943C12C705D620013DD68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF69439D2C705D620013DD68 /* AppDelegate.swift */; };
-		DF6943C22C705D620013DD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF69439E2C705D620013DD68 /* Assets.xcassets */; };
-		DF6943C32C705D620013DD68 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DF69439F2C705D620013DD68 /* Config.xcconfig */; };
-		DF6943C42C705D620013DD68 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF6943A02C705D620013DD68 /* Info.plist */; };
-		DF6943C52C705D620013DD68 /* KakaoAuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943A12C705D620013DD68 /* KakaoAuthVM.swift */; };
-		DF6943C62C705D620013DD68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6943A32C705D620013DD68 /* LaunchScreen.storyboard */; };
-		DF6943C72C705D620013DD68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6943A52C705D620013DD68 /* Main.storyboard */; };
-		DF6943C82C705D620013DD68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943A62C705D620013DD68 /* SceneDelegate.swift */; };
-		DF6943C92C705D620013DD68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6943A72C705D620013DD68 /* ViewController.swift */; };
-		DF6943CA2C705D620013DD68 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = DF6943A92C705D620013DD68 /* readme.md */; };
+		DF2D9AEE2C8079B300C29415 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9A7A2C8079B200C29415 /* FifthViewController.swift */; };
+		DF2D9AEF2C8079B300C29415 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9A7B2C8079B200C29415 /* FirstViewController.swift */; };
+		DF2D9AF02C8079B300C29415 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9A7C2C8079B200C29415 /* FourthViewController.swift */; };
+		DF2D9AF12C8079B300C29415 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9A7D2C8079B200C29415 /* SecondViewController.swift */; };
+		DF2D9AF22C8079B300C29415 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9A7E2C8079B200C29415 /* ThirdViewController.swift */; };
+		DF2D9AF32C8079B300C29415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9A802C8079B200C29415 /* AppDelegate.swift */; };
+		DF2D9AF42C8079B300C29415 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9A812C8079B200C29415 /* SceneDelegate.swift */; };
+		DF2D9AF52C8079B300C29415 /* FirebaseFirestoreSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9A832C8079B200C29415 /* FirebaseFirestoreSwift.swift */; };
+		DF2D9AF62C8079B300C29415 /* MyFirestore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9A842C8079B200C29415 /* MyFirestore.swift */; };
+		DF2D9AF72C8079B300C29415 /* BanChango.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9A862C8079B200C29415 /* BanChango.png */; };
+		DF2D9AF82C8079B300C29415 /* kakao_login_large_wide.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9A872C8079B200C29415 /* kakao_login_large_wide.png */; };
+		DF2D9AF92C8079B300C29415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9A892C8079B200C29415 /* Assets.xcassets */; };
+		DF2D9AFA2C8079B300C29415 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9A8A2C8079B200C29415 /* Config.xcconfig */; };
+		DF2D9AFB2C8079B300C29415 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9A8B2C8079B200C29415 /* GoogleService-Info.plist */; };
+		DF2D9AFC2C8079B300C29415 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9A8C2C8079B200C29415 /* Info.plist */; };
+		DF2D9AFD2C8079B300C29415 /* KakaoAuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9A8D2C8079B200C29415 /* KakaoAuthVM.swift */; };
+		DF2D9AFE2C8079B300C29415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9A8F2C8079B200C29415 /* LaunchScreen.storyboard */; };
+		DF2D9AFF2C8079B300C29415 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9A902C8079B200C29415 /* LoginViewController.swift */; };
+		DF2D9B002C8079B300C29415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9A922C8079B200C29415 /* Main.storyboard */; };
+		DF2D9B012C8079B300C29415 /* KakaoAuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9A9C2C8079B200C29415 /* KakaoAuthVM.swift */; };
+		DF2D9B022C8079B300C29415 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9A9D2C8079B200C29415 /* LoginView.swift */; };
+		DF2D9B032C8079B300C29415 /* MyAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9A9E2C8079B200C29415 /* MyAppDelegate.swift */; };
+		DF2D9B042C8079B300C29415 /* MySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9A9F2C8079B200C29415 /* MySceneDelegate.swift */; };
+		DF2D9B052C8079B300C29415 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9AA12C8079B200C29415 /* Preview Assets.xcassets */; };
+		DF2D9B062C8079B300C29415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9AA32C8079B200C29415 /* Assets.xcassets */; };
+		DF2D9B072C8079B300C29415 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9AA42C8079B200C29415 /* Config.xcconfig */; };
+		DF2D9B082C8079B300C29415 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9AA52C8079B200C29415 /* ContentView.swift */; };
+		DF2D9B092C8079B300C29415 /* Social_Login_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9AA62C8079B200C29415 /* Social_Login_SwiftUIApp.swift */; };
+		DF2D9B0A2C8079B300C29415 /* Social-Login-SwiftUI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9AA92C8079B200C29415 /* Social-Login-SwiftUI-Info.plist */; };
+		DF2D9B0B2C8079B300C29415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9AAB2C8079B200C29415 /* AppDelegate.swift */; };
+		DF2D9B0C2C8079B300C29415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9AAC2C8079B200C29415 /* Assets.xcassets */; };
+		DF2D9B0D2C8079B300C29415 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9AAD2C8079B200C29415 /* Config.xcconfig */; };
+		DF2D9B0E2C8079B300C29415 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9AAE2C8079B200C29415 /* Info.plist */; };
+		DF2D9B0F2C8079B300C29415 /* KakaoAuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9AAF2C8079B200C29415 /* KakaoAuthVM.swift */; };
+		DF2D9B102C8079B300C29415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9AB12C8079B200C29415 /* LaunchScreen.storyboard */; };
+		DF2D9B112C8079B300C29415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9AB32C8079B200C29415 /* Main.storyboard */; };
+		DF2D9B122C8079B300C29415 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9AB42C8079B200C29415 /* SceneDelegate.swift */; };
+		DF2D9B132C8079B300C29415 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9AB52C8079B200C29415 /* ViewController.swift */; };
+		DF2D9B142C8079B300C29415 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9AB72C8079B200C29415 /* readme.md */; };
+		DF2D9B152C8079B300C29415 /* BanChango.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9ABA2C8079B200C29415 /* BanChango.png */; };
+		DF2D9B162C8079B300C29415 /* kakao_login_large_wide.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9ABB2C8079B200C29415 /* kakao_login_large_wide.png */; };
+		DF2D9B172C8079B300C29415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9ABD2C8079B200C29415 /* AppDelegate.swift */; };
+		DF2D9B182C8079B300C29415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9ABE2C8079B200C29415 /* Assets.xcassets */; };
+		DF2D9B192C8079B300C29415 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9ABF2C8079B200C29415 /* Config.xcconfig */; };
+		DF2D9B1A2C8079B300C29415 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9AC02C8079B200C29415 /* Info.plist */; };
+		DF2D9B1B2C8079B300C29415 /* KakaoAuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9AC12C8079B200C29415 /* KakaoAuthVM.swift */; };
+		DF2D9B1C2C8079B300C29415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9AC32C8079B200C29415 /* LaunchScreen.storyboard */; };
+		DF2D9B1D2C8079B300C29415 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9AC42C8079B200C29415 /* LoginViewController.swift */; };
+		DF2D9B1E2C8079B300C29415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9AC62C8079B200C29415 /* Main.storyboard */; };
+		DF2D9B1F2C8079B300C29415 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9AC72C8079B200C29415 /* SceneDelegate.swift */; };
+		DF2D9B202C8079B300C29415 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9AC82C8079B200C29415 /* ViewController.swift */; };
+		DF2D9B212C8079B300C29415 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9ACA2C8079B200C29415 /* readme.md */; };
+		DF2D9B222C8079B300C29415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9ADD2C8079B200C29415 /* AppDelegate.swift */; };
+		DF2D9B232C8079B300C29415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9ADE2C8079B200C29415 /* Assets.xcassets */; };
+		DF2D9B242C8079B300C29415 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9ADF2C8079B200C29415 /* Info.plist */; };
+		DF2D9B252C8079B300C29415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9AE12C8079B200C29415 /* LaunchScreen.storyboard */; };
+		DF2D9B262C8079B300C29415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2D9AE32C8079B200C29415 /* Main.storyboard */; };
+		DF2D9B272C8079B300C29415 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9AE42C8079B200C29415 /* SceneDelegate.swift */; };
+		DF2D9B282C8079B300C29415 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D9AE52C8079B200C29415 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DF6943B22C705D620013DD68 /* PBXContainerItemProxy */ = {
+		DF2D9A9A2C8079B200C29415 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DF69439A2C705D620013DD68 /* Social_Login_SwiftUI.xcodeproj */;
+			containerPortal = DF2D9A942C8079B200C29415 /* Banchango.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DF3BFC5A2C74A85C00E14567;
+			remoteInfo = Banchango;
+		};
+		DF2D9AD52C8079B200C29415 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF2D9AA82C8079B200C29415 /* Social_Login_SwiftUI.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DF3D2A812C6DC6E9005BB937;
 			remoteInfo = Social_Login_SwiftUI;
 		};
-		DF6943B52C705D620013DD68 /* PBXContainerItemProxy */ = {
+		DF2D9AD82C8079B200C29415 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DF6943AA2C705D620013DD68 /* SocialLogin.xcodeproj */;
+			containerPortal = DF2D9ACB2C8079B200C29415 /* SocialLogin.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DFF5E5972C6A341D00BC777A;
 			remoteInfo = SocialLogin;
+		};
+		DF2D9ADB2C8079B200C29415 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF2D9AB82C8079B200C29415 /* SocialLogin.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DFF5E5972C6A341D00BC777A;
+			remoteInfo = SocialLogin;
+		};
+		DF2D9AEC2C8079B200C29415 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF2D9AE72C8079B200C29415 /* 2_TextFieldProject.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DFD9997E2C7C5F7200124AB9;
+			remoteInfo = 2_TextFieldProject;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -65,28 +125,70 @@
 		DF1FFCBD2C6A430000C52627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF1FFCFD2C6A457B00C52627 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		DF1FFD002C6A471400C52627 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
-		DF69438E2C705D620013DD68 /* KakaoAuthVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoAuthVM.swift; sourceTree = "<group>"; };
-		DF69438F2C705D620013DD68 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		DF6943902C705D620013DD68 /* MyAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAppDelegate.swift; sourceTree = "<group>"; };
-		DF6943912C705D620013DD68 /* MySceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySceneDelegate.swift; sourceTree = "<group>"; };
-		DF6943932C705D620013DD68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DF6943952C705D620013DD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF6943962C705D620013DD68 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
-		DF6943972C705D620013DD68 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DF6943982C705D620013DD68 /* Social_Login_SwiftUIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Social_Login_SwiftUIApp.swift; sourceTree = "<group>"; };
-		DF69439A2C705D620013DD68 /* Social_Login_SwiftUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Social_Login_SwiftUI.xcodeproj; sourceTree = "<group>"; };
-		DF69439B2C705D620013DD68 /* Social-Login-SwiftUI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Social-Login-SwiftUI-Info.plist"; sourceTree = "<group>"; };
-		DF69439D2C705D620013DD68 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF69439E2C705D620013DD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF69439F2C705D620013DD68 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
-		DF6943A02C705D620013DD68 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF6943A12C705D620013DD68 /* KakaoAuthVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoAuthVM.swift; sourceTree = "<group>"; };
-		DF6943A22C705D620013DD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DF6943A42C705D620013DD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF6943A62C705D620013DD68 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF6943A72C705D620013DD68 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF6943A92C705D620013DD68 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
-		DF6943AA2C705D620013DD68 /* SocialLogin.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SocialLogin.xcodeproj; sourceTree = "<group>"; };
+		DF2D9A7A2C8079B200C29415 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		DF2D9A7B2C8079B200C29415 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DF2D9A7C2C8079B200C29415 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		DF2D9A7D2C8079B200C29415 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DF2D9A7E2C8079B200C29415 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		DF2D9A802C8079B200C29415 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF2D9A812C8079B200C29415 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF2D9A832C8079B200C29415 /* FirebaseFirestoreSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseFirestoreSwift.swift; sourceTree = "<group>"; };
+		DF2D9A842C8079B200C29415 /* MyFirestore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFirestore.swift; sourceTree = "<group>"; };
+		DF2D9A862C8079B200C29415 /* BanChango.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BanChango.png; sourceTree = "<group>"; };
+		DF2D9A872C8079B200C29415 /* kakao_login_large_wide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kakao_login_large_wide.png; sourceTree = "<group>"; };
+		DF2D9A892C8079B200C29415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF2D9A8A2C8079B200C29415 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		DF2D9A8B2C8079B200C29415 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DF2D9A8C2C8079B200C29415 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2D9A8D2C8079B200C29415 /* KakaoAuthVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoAuthVM.swift; sourceTree = "<group>"; };
+		DF2D9A8E2C8079B200C29415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF2D9A902C8079B200C29415 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DF2D9A912C8079B200C29415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF2D9A942C8079B200C29415 /* Banchango.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Banchango.xcodeproj; sourceTree = "<group>"; };
+		DF2D9A9C2C8079B200C29415 /* KakaoAuthVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoAuthVM.swift; sourceTree = "<group>"; };
+		DF2D9A9D2C8079B200C29415 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DF2D9A9E2C8079B200C29415 /* MyAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAppDelegate.swift; sourceTree = "<group>"; };
+		DF2D9A9F2C8079B200C29415 /* MySceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySceneDelegate.swift; sourceTree = "<group>"; };
+		DF2D9AA12C8079B200C29415 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF2D9AA32C8079B200C29415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF2D9AA42C8079B200C29415 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		DF2D9AA52C8079B200C29415 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF2D9AA62C8079B200C29415 /* Social_Login_SwiftUIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Social_Login_SwiftUIApp.swift; sourceTree = "<group>"; };
+		DF2D9AA82C8079B200C29415 /* Social_Login_SwiftUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Social_Login_SwiftUI.xcodeproj; sourceTree = "<group>"; };
+		DF2D9AA92C8079B200C29415 /* Social-Login-SwiftUI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Social-Login-SwiftUI-Info.plist"; sourceTree = "<group>"; };
+		DF2D9AAB2C8079B200C29415 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF2D9AAC2C8079B200C29415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF2D9AAD2C8079B200C29415 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		DF2D9AAE2C8079B200C29415 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2D9AAF2C8079B200C29415 /* KakaoAuthVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoAuthVM.swift; sourceTree = "<group>"; };
+		DF2D9AB02C8079B200C29415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF2D9AB22C8079B200C29415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF2D9AB42C8079B200C29415 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF2D9AB52C8079B200C29415 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF2D9AB72C8079B200C29415 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		DF2D9AB82C8079B200C29415 /* SocialLogin.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SocialLogin.xcodeproj; sourceTree = "<group>"; };
+		DF2D9ABA2C8079B200C29415 /* BanChango.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BanChango.png; sourceTree = "<group>"; };
+		DF2D9ABB2C8079B200C29415 /* kakao_login_large_wide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kakao_login_large_wide.png; sourceTree = "<group>"; };
+		DF2D9ABD2C8079B200C29415 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF2D9ABE2C8079B200C29415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF2D9ABF2C8079B200C29415 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		DF2D9AC02C8079B200C29415 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2D9AC12C8079B200C29415 /* KakaoAuthVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoAuthVM.swift; sourceTree = "<group>"; };
+		DF2D9AC22C8079B200C29415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF2D9AC42C8079B200C29415 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DF2D9AC52C8079B200C29415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF2D9AC72C8079B200C29415 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF2D9AC82C8079B200C29415 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF2D9ACA2C8079B200C29415 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		DF2D9ACB2C8079B200C29415 /* SocialLogin.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SocialLogin.xcodeproj; sourceTree = "<group>"; };
+		DF2D9ADD2C8079B200C29415 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF2D9ADE2C8079B200C29415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF2D9ADF2C8079B200C29415 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2D9AE02C8079B200C29415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF2D9AE22C8079B200C29415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF2D9AE42C8079B200C29415 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF2D9AE52C8079B200C29415 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF2D9AE72C8079B200C29415 /* 2_TextFieldProject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = 2_TextFieldProject.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +205,11 @@
 		DF1FFCA32C6A42FF00C52627 = {
 			isa = PBXGroup;
 			children = (
-				DF6943AC2C705D620013DD68 /* Social_Login */,
 				DF1FFD002C6A471400C52627 /* readme.md */,
 				DF1FFCFD2C6A457B00C52627 /* .gitignore */,
+				DF2D9ACD2C8079B200C29415 /* 1_Social_Login */,
+				DF2D9AE82C8079B200C29415 /* 2_TextFieldProject */,
+				DF2D9A962C8079B200C29415 /* 3_소셜로그인 + firebase 닉네임 설정 */,
 				DF1FFCAE2C6A42FF00C52627 /* iOSDevLibrary */,
 				DF1FFCAD2C6A42FF00C52627 /* Products */,
 			);
@@ -133,95 +237,255 @@
 			path = iOSDevLibrary;
 			sourceTree = "<group>";
 		};
-		DF6943922C705D620013DD68 /* Login */ = {
+		DF2D9A7F2C8079B200C29415 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DF69438E2C705D620013DD68 /* KakaoAuthVM.swift */,
-				DF69438F2C705D620013DD68 /* LoginView.swift */,
-				DF6943902C705D620013DD68 /* MyAppDelegate.swift */,
-				DF6943912C705D620013DD68 /* MySceneDelegate.swift */,
+				DF2D9A7A2C8079B200C29415 /* FifthViewController.swift */,
+				DF2D9A7B2C8079B200C29415 /* FirstViewController.swift */,
+				DF2D9A7C2C8079B200C29415 /* FourthViewController.swift */,
+				DF2D9A7D2C8079B200C29415 /* SecondViewController.swift */,
+				DF2D9A7E2C8079B200C29415 /* ThirdViewController.swift */,
 			);
-			path = Login;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		DF6943942C705D620013DD68 /* Preview Content */ = {
+		DF2D9A822C8079B200C29415 /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
-				DF6943932C705D620013DD68 /* Preview Assets.xcassets */,
+				DF2D9A802C8079B200C29415 /* AppDelegate.swift */,
+				DF2D9A812C8079B200C29415 /* SceneDelegate.swift */,
 			);
-			path = "Preview Content";
+			path = Delegate;
 			sourceTree = "<group>";
 		};
-		DF6943992C705D620013DD68 /* Social_Login_SwiftUI */ = {
+		DF2D9A852C8079B200C29415 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				DF6943922C705D620013DD68 /* Login */,
-				DF6943942C705D620013DD68 /* Preview Content */,
-				DF6943952C705D620013DD68 /* Assets.xcassets */,
-				DF6943962C705D620013DD68 /* Config.xcconfig */,
-				DF6943972C705D620013DD68 /* ContentView.swift */,
-				DF6943982C705D620013DD68 /* Social_Login_SwiftUIApp.swift */,
+				DF2D9A832C8079B200C29415 /* FirebaseFirestoreSwift.swift */,
+				DF2D9A842C8079B200C29415 /* MyFirestore.swift */,
 			);
-			path = Social_Login_SwiftUI;
+			path = Firebase;
 			sourceTree = "<group>";
 		};
-		DF69439C2C705D620013DD68 /* Social_Login_SwiftUI */ = {
+		DF2D9A882C8079B200C29415 /* image */ = {
 			isa = PBXGroup;
 			children = (
-				DF6943992C705D620013DD68 /* Social_Login_SwiftUI */,
-				DF69439A2C705D620013DD68 /* Social_Login_SwiftUI.xcodeproj */,
-				DF69439B2C705D620013DD68 /* Social-Login-SwiftUI-Info.plist */,
+				DF2D9A862C8079B200C29415 /* BanChango.png */,
+				DF2D9A872C8079B200C29415 /* kakao_login_large_wide.png */,
 			);
-			path = Social_Login_SwiftUI;
+			path = image;
 			sourceTree = "<group>";
 		};
-		DF6943A82C705D620013DD68 /* SocialLogin */ = {
+		DF2D9A932C8079B200C29415 /* Banchango */ = {
 			isa = PBXGroup;
 			children = (
-				DF69439D2C705D620013DD68 /* AppDelegate.swift */,
-				DF69439E2C705D620013DD68 /* Assets.xcassets */,
-				DF69439F2C705D620013DD68 /* Config.xcconfig */,
-				DF6943A02C705D620013DD68 /* Info.plist */,
-				DF6943A12C705D620013DD68 /* KakaoAuthVM.swift */,
-				DF6943A32C705D620013DD68 /* LaunchScreen.storyboard */,
-				DF6943A52C705D620013DD68 /* Main.storyboard */,
-				DF6943A62C705D620013DD68 /* SceneDelegate.swift */,
-				DF6943A72C705D620013DD68 /* ViewController.swift */,
+				DF2D9A7F2C8079B200C29415 /* Controller */,
+				DF2D9A822C8079B200C29415 /* Delegate */,
+				DF2D9A852C8079B200C29415 /* Firebase */,
+				DF2D9A882C8079B200C29415 /* image */,
+				DF2D9A892C8079B200C29415 /* Assets.xcassets */,
+				DF2D9A8A2C8079B200C29415 /* Config.xcconfig */,
+				DF2D9A8B2C8079B200C29415 /* GoogleService-Info.plist */,
+				DF2D9A8C2C8079B200C29415 /* Info.plist */,
+				DF2D9A8D2C8079B200C29415 /* KakaoAuthVM.swift */,
+				DF2D9A8F2C8079B200C29415 /* LaunchScreen.storyboard */,
+				DF2D9A902C8079B200C29415 /* LoginViewController.swift */,
+				DF2D9A922C8079B200C29415 /* Main.storyboard */,
 			);
-			path = SocialLogin;
+			path = Banchango;
 			sourceTree = "<group>";
 		};
-		DF6943AB2C705D620013DD68 /* SocialLogin_UIKit */ = {
+		DF2D9A952C8079B200C29415 /* Banchango */ = {
 			isa = PBXGroup;
 			children = (
-				DF6943A82C705D620013DD68 /* SocialLogin */,
-				DF6943A92C705D620013DD68 /* readme.md */,
-				DF6943AA2C705D620013DD68 /* SocialLogin.xcodeproj */,
+				DF2D9A932C8079B200C29415 /* Banchango */,
+				DF2D9A942C8079B200C29415 /* Banchango.xcodeproj */,
 			);
-			path = SocialLogin_UIKit;
+			path = Banchango;
 			sourceTree = "<group>";
 		};
-		DF6943AC2C705D620013DD68 /* Social_Login */ = {
+		DF2D9A962C8079B200C29415 /* 3_소셜로그인 + firebase 닉네임 설정 */ = {
 			isa = PBXGroup;
 			children = (
-				DF69439C2C705D620013DD68 /* Social_Login_SwiftUI */,
-				DF6943AB2C705D620013DD68 /* SocialLogin_UIKit */,
+				DF2D9A952C8079B200C29415 /* Banchango */,
 			);
-			path = Social_Login;
+			path = "3_소셜로그인 + firebase 닉네임 설정";
 			sourceTree = "<group>";
 		};
-		DF6943AD2C705D620013DD68 /* Products */ = {
+		DF2D9A972C8079B200C29415 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF6943B32C705D620013DD68 /* Social_Login_SwiftUI.app */,
+				DF2D9A9B2C8079B200C29415 /* Banchango.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF6943AF2C705D620013DD68 /* Products */ = {
+		DF2D9AA02C8079B200C29415 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				DF6943B62C705D620013DD68 /* SocialLogin.app */,
+				DF2D9A9C2C8079B200C29415 /* KakaoAuthVM.swift */,
+				DF2D9A9D2C8079B200C29415 /* LoginView.swift */,
+				DF2D9A9E2C8079B200C29415 /* MyAppDelegate.swift */,
+				DF2D9A9F2C8079B200C29415 /* MySceneDelegate.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DF2D9AA22C8079B200C29415 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D9AA12C8079B200C29415 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF2D9AA72C8079B200C29415 /* Social_Login_SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D9AA02C8079B200C29415 /* Login */,
+				DF2D9AA22C8079B200C29415 /* Preview Content */,
+				DF2D9AA32C8079B200C29415 /* Assets.xcassets */,
+				DF2D9AA42C8079B200C29415 /* Config.xcconfig */,
+				DF2D9AA52C8079B200C29415 /* ContentView.swift */,
+				DF2D9AA62C8079B200C29415 /* Social_Login_SwiftUIApp.swift */,
+			);
+			path = Social_Login_SwiftUI;
+			sourceTree = "<group>";
+		};
+		DF2D9AAA2C8079B200C29415 /* Social_Login_SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D9AA72C8079B200C29415 /* Social_Login_SwiftUI */,
+				DF2D9AA82C8079B200C29415 /* Social_Login_SwiftUI.xcodeproj */,
+				DF2D9AA92C8079B200C29415 /* Social-Login-SwiftUI-Info.plist */,
+			);
+			path = Social_Login_SwiftUI;
+			sourceTree = "<group>";
+		};
+		DF2D9AB62C8079B200C29415 /* SocialLogin */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D9AAB2C8079B200C29415 /* AppDelegate.swift */,
+				DF2D9AAC2C8079B200C29415 /* Assets.xcassets */,
+				DF2D9AAD2C8079B200C29415 /* Config.xcconfig */,
+				DF2D9AAE2C8079B200C29415 /* Info.plist */,
+				DF2D9AAF2C8079B200C29415 /* KakaoAuthVM.swift */,
+				DF2D9AB12C8079B200C29415 /* LaunchScreen.storyboard */,
+				DF2D9AB32C8079B200C29415 /* Main.storyboard */,
+				DF2D9AB42C8079B200C29415 /* SceneDelegate.swift */,
+				DF2D9AB52C8079B200C29415 /* ViewController.swift */,
+			);
+			path = SocialLogin;
+			sourceTree = "<group>";
+		};
+		DF2D9AB92C8079B200C29415 /* SocialLogin_UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D9AB62C8079B200C29415 /* SocialLogin */,
+				DF2D9AB72C8079B200C29415 /* readme.md */,
+				DF2D9AB82C8079B200C29415 /* SocialLogin.xcodeproj */,
+			);
+			path = SocialLogin_UIKit;
+			sourceTree = "<group>";
+		};
+		DF2D9ABC2C8079B200C29415 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D9ABA2C8079B200C29415 /* BanChango.png */,
+				DF2D9ABB2C8079B200C29415 /* kakao_login_large_wide.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		DF2D9AC92C8079B200C29415 /* SocialLogin */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D9ABC2C8079B200C29415 /* image */,
+				DF2D9ABD2C8079B200C29415 /* AppDelegate.swift */,
+				DF2D9ABE2C8079B200C29415 /* Assets.xcassets */,
+				DF2D9ABF2C8079B200C29415 /* Config.xcconfig */,
+				DF2D9AC02C8079B200C29415 /* Info.plist */,
+				DF2D9AC12C8079B200C29415 /* KakaoAuthVM.swift */,
+				DF2D9AC32C8079B200C29415 /* LaunchScreen.storyboard */,
+				DF2D9AC42C8079B200C29415 /* LoginViewController.swift */,
+				DF2D9AC62C8079B200C29415 /* Main.storyboard */,
+				DF2D9AC72C8079B200C29415 /* SceneDelegate.swift */,
+				DF2D9AC82C8079B200C29415 /* ViewController.swift */,
+			);
+			path = SocialLogin;
+			sourceTree = "<group>";
+		};
+		DF2D9ACC2C8079B200C29415 /* SocialLogin_UIKit_프로토타입 */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D9AC92C8079B200C29415 /* SocialLogin */,
+				DF2D9ACA2C8079B200C29415 /* readme.md */,
+				DF2D9ACB2C8079B200C29415 /* SocialLogin.xcodeproj */,
+			);
+			path = "SocialLogin_UIKit_프로토타입";
+			sourceTree = "<group>";
+		};
+		DF2D9ACD2C8079B200C29415 /* 1_Social_Login */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D9AAA2C8079B200C29415 /* Social_Login_SwiftUI */,
+				DF2D9AB92C8079B200C29415 /* SocialLogin_UIKit */,
+				DF2D9ACC2C8079B200C29415 /* SocialLogin_UIKit_프로토타입 */,
+			);
+			path = 1_Social_Login;
+			sourceTree = "<group>";
+		};
+		DF2D9ACE2C8079B200C29415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D9ADC2C8079B200C29415 /* SocialLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF2D9AD02C8079B200C29415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D9AD92C8079B200C29415 /* SocialLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF2D9AD22C8079B200C29415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D9AD62C8079B200C29415 /* Social_Login_SwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF2D9AE62C8079B200C29415 /* 2_TextFieldProject */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D9ADD2C8079B200C29415 /* AppDelegate.swift */,
+				DF2D9ADE2C8079B200C29415 /* Assets.xcassets */,
+				DF2D9ADF2C8079B200C29415 /* Info.plist */,
+				DF2D9AE12C8079B200C29415 /* LaunchScreen.storyboard */,
+				DF2D9AE32C8079B200C29415 /* Main.storyboard */,
+				DF2D9AE42C8079B200C29415 /* SceneDelegate.swift */,
+				DF2D9AE52C8079B200C29415 /* ViewController.swift */,
+			);
+			path = 2_TextFieldProject;
+			sourceTree = "<group>";
+		};
+		DF2D9AE82C8079B200C29415 /* 2_TextFieldProject */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D9AE62C8079B200C29415 /* 2_TextFieldProject */,
+				DF2D9AE72C8079B200C29415 /* 2_TextFieldProject.xcodeproj */,
+			);
+			path = 2_TextFieldProject;
+			sourceTree = "<group>";
+		};
+		DF2D9AE92C8079B200C29415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D9AED2C8079B200C29415 /* 2_TextFieldProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -274,12 +538,24 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = DF6943AD2C705D620013DD68 /* Products */;
-					ProjectRef = DF69439A2C705D620013DD68 /* Social_Login_SwiftUI.xcodeproj */;
+					ProductGroup = DF2D9AE92C8079B200C29415 /* Products */;
+					ProjectRef = DF2D9AE72C8079B200C29415 /* 2_TextFieldProject.xcodeproj */;
 				},
 				{
-					ProductGroup = DF6943AF2C705D620013DD68 /* Products */;
-					ProjectRef = DF6943AA2C705D620013DD68 /* SocialLogin.xcodeproj */;
+					ProductGroup = DF2D9A972C8079B200C29415 /* Products */;
+					ProjectRef = DF2D9A942C8079B200C29415 /* Banchango.xcodeproj */;
+				},
+				{
+					ProductGroup = DF2D9AD22C8079B200C29415 /* Products */;
+					ProjectRef = DF2D9AA82C8079B200C29415 /* Social_Login_SwiftUI.xcodeproj */;
+				},
+				{
+					ProductGroup = DF2D9AD02C8079B200C29415 /* Products */;
+					ProjectRef = DF2D9ACB2C8079B200C29415 /* SocialLogin.xcodeproj */;
+				},
+				{
+					ProductGroup = DF2D9ACE2C8079B200C29415 /* Products */;
+					ProjectRef = DF2D9AB82C8079B200C29415 /* SocialLogin.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -290,18 +566,39 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		DF6943B32C705D620013DD68 /* Social_Login_SwiftUI.app */ = {
+		DF2D9A9B2C8079B200C29415 /* Banchango.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Banchango.app;
+			remoteRef = DF2D9A9A2C8079B200C29415 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF2D9AD62C8079B200C29415 /* Social_Login_SwiftUI.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = Social_Login_SwiftUI.app;
-			remoteRef = DF6943B22C705D620013DD68 /* PBXContainerItemProxy */;
+			remoteRef = DF2D9AD52C8079B200C29415 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		DF6943B62C705D620013DD68 /* SocialLogin.app */ = {
+		DF2D9AD92C8079B200C29415 /* SocialLogin.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = SocialLogin.app;
-			remoteRef = DF6943B52C705D620013DD68 /* PBXContainerItemProxy */;
+			remoteRef = DF2D9AD82C8079B200C29415 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF2D9ADC2C8079B200C29415 /* SocialLogin.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SocialLogin.app;
+			remoteRef = DF2D9ADB2C8079B200C29415 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF2D9AED2C8079B200C29415 /* 2_TextFieldProject.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = 2_TextFieldProject.app;
+			remoteRef = DF2D9AEC2C8079B200C29415 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -311,20 +608,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF2D9AF82C8079B300C29415 /* kakao_login_large_wide.png in Resources */,
+				DF2D9B162C8079B300C29415 /* kakao_login_large_wide.png in Resources */,
+				DF2D9B152C8079B300C29415 /* BanChango.png in Resources */,
 				DF1FFCFE2C6A457B00C52627 /* .gitignore in Resources */,
-				DF6943C02C705D620013DD68 /* Social-Login-SwiftUI-Info.plist in Resources */,
+				DF2D9B192C8079B300C29415 /* Config.xcconfig in Resources */,
+				DF2D9AF72C8079B300C29415 /* BanChango.png in Resources */,
 				DF1FFCB92C6A430000C52627 /* Assets.xcassets in Resources */,
-				DF6943C32C705D620013DD68 /* Config.xcconfig in Resources */,
+				DF2D9B252C8079B300C29415 /* LaunchScreen.storyboard in Resources */,
+				DF2D9B182C8079B300C29415 /* Assets.xcassets in Resources */,
+				DF2D9B242C8079B300C29415 /* Info.plist in Resources */,
+				DF2D9B0A2C8079B300C29415 /* Social-Login-SwiftUI-Info.plist in Resources */,
+				DF2D9B112C8079B300C29415 /* Main.storyboard in Resources */,
+				DF2D9B072C8079B300C29415 /* Config.xcconfig in Resources */,
+				DF2D9B062C8079B300C29415 /* Assets.xcassets in Resources */,
+				DF2D9AFA2C8079B300C29415 /* Config.xcconfig in Resources */,
+				DF2D9B0E2C8079B300C29415 /* Info.plist in Resources */,
 				DF1FFCBC2C6A430000C52627 /* Base in Resources */,
-				DF6943C22C705D620013DD68 /* Assets.xcassets in Resources */,
 				DF1FFD012C6A471400C52627 /* readme.md in Resources */,
-				DF6943C72C705D620013DD68 /* Main.storyboard in Resources */,
-				DF6943C62C705D620013DD68 /* LaunchScreen.storyboard in Resources */,
-				DF6943BD2C705D620013DD68 /* Config.xcconfig in Resources */,
-				DF6943C42C705D620013DD68 /* Info.plist in Resources */,
-				DF6943BC2C705D620013DD68 /* Assets.xcassets in Resources */,
-				DF6943BB2C705D620013DD68 /* Preview Assets.xcassets in Resources */,
-				DF6943CA2C705D620013DD68 /* readme.md in Resources */,
+				DF2D9B142C8079B300C29415 /* readme.md in Resources */,
+				DF2D9B002C8079B300C29415 /* Main.storyboard in Resources */,
+				DF2D9B1C2C8079B300C29415 /* LaunchScreen.storyboard in Resources */,
+				DF2D9B262C8079B300C29415 /* Main.storyboard in Resources */,
+				DF2D9AFB2C8079B300C29415 /* GoogleService-Info.plist in Resources */,
+				DF2D9AFC2C8079B300C29415 /* Info.plist in Resources */,
+				DF2D9B212C8079B300C29415 /* readme.md in Resources */,
+				DF2D9B1E2C8079B300C29415 /* Main.storyboard in Resources */,
+				DF2D9B1A2C8079B300C29415 /* Info.plist in Resources */,
+				DF2D9B052C8079B300C29415 /* Preview Assets.xcassets in Resources */,
+				DF2D9B0D2C8079B300C29415 /* Config.xcconfig in Resources */,
+				DF2D9AFE2C8079B300C29415 /* LaunchScreen.storyboard in Resources */,
+				DF2D9AF92C8079B300C29415 /* Assets.xcassets in Resources */,
+				DF2D9B102C8079B300C29415 /* LaunchScreen.storyboard in Resources */,
+				DF2D9B0C2C8079B300C29415 /* Assets.xcassets in Resources */,
+				DF2D9B232C8079B300C29415 /* Assets.xcassets in Resources */,
 				DF1FFCB72C6A42FF00C52627 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,19 +653,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF6943B72C705D620013DD68 /* KakaoAuthVM.swift in Sources */,
+				DF2D9B1D2C8079B300C29415 /* LoginViewController.swift in Sources */,
+				DF2D9AFF2C8079B300C29415 /* LoginViewController.swift in Sources */,
+				DF2D9B272C8079B300C29415 /* SceneDelegate.swift in Sources */,
+				DF2D9AF02C8079B300C29415 /* FourthViewController.swift in Sources */,
+				DF2D9AF62C8079B300C29415 /* MyFirestore.swift in Sources */,
+				DF2D9B042C8079B300C29415 /* MySceneDelegate.swift in Sources */,
+				DF2D9AEF2C8079B300C29415 /* FirstViewController.swift in Sources */,
+				DF2D9AEE2C8079B300C29415 /* FifthViewController.swift in Sources */,
+				DF2D9B132C8079B300C29415 /* ViewController.swift in Sources */,
+				DF2D9B122C8079B300C29415 /* SceneDelegate.swift in Sources */,
+				DF2D9AF32C8079B300C29415 /* AppDelegate.swift in Sources */,
 				DF1FFCB42C6A42FF00C52627 /* ViewController.swift in Sources */,
-				DF6943BE2C705D620013DD68 /* ContentView.swift in Sources */,
+				DF2D9B082C8079B300C29415 /* ContentView.swift in Sources */,
+				DF2D9AF42C8079B300C29415 /* SceneDelegate.swift in Sources */,
+				DF2D9B282C8079B300C29415 /* ViewController.swift in Sources */,
+				DF2D9B092C8079B300C29415 /* Social_Login_SwiftUIApp.swift in Sources */,
+				DF2D9B172C8079B300C29415 /* AppDelegate.swift in Sources */,
+				DF2D9B1F2C8079B300C29415 /* SceneDelegate.swift in Sources */,
+				DF2D9AF12C8079B300C29415 /* SecondViewController.swift in Sources */,
+				DF2D9B032C8079B300C29415 /* MyAppDelegate.swift in Sources */,
+				DF2D9B222C8079B300C29415 /* AppDelegate.swift in Sources */,
+				DF2D9AF52C8079B300C29415 /* FirebaseFirestoreSwift.swift in Sources */,
+				DF2D9B012C8079B300C29415 /* KakaoAuthVM.swift in Sources */,
+				DF2D9B202C8079B300C29415 /* ViewController.swift in Sources */,
 				DF1FFCB02C6A42FF00C52627 /* AppDelegate.swift in Sources */,
-				DF6943B82C705D620013DD68 /* LoginView.swift in Sources */,
-				DF6943C52C705D620013DD68 /* KakaoAuthVM.swift in Sources */,
-				DF6943B92C705D620013DD68 /* MyAppDelegate.swift in Sources */,
-				DF6943BA2C705D620013DD68 /* MySceneDelegate.swift in Sources */,
-				DF6943C92C705D620013DD68 /* ViewController.swift in Sources */,
+				DF2D9B0F2C8079B300C29415 /* KakaoAuthVM.swift in Sources */,
+				DF2D9AF22C8079B300C29415 /* ThirdViewController.swift in Sources */,
+				DF2D9AFD2C8079B300C29415 /* KakaoAuthVM.swift in Sources */,
+				DF2D9B0B2C8079B300C29415 /* AppDelegate.swift in Sources */,
+				DF2D9B022C8079B300C29415 /* LoginView.swift in Sources */,
+				DF2D9B1B2C8079B300C29415 /* KakaoAuthVM.swift in Sources */,
 				DF1FFCB22C6A42FF00C52627 /* SceneDelegate.swift in Sources */,
-				DF6943C12C705D620013DD68 /* AppDelegate.swift in Sources */,
-				DF6943BF2C705D620013DD68 /* Social_Login_SwiftUIApp.swift in Sources */,
-				DF6943C82C705D620013DD68 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,18 +707,66 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		DF6943A32C705D620013DD68 /* LaunchScreen.storyboard */ = {
+		DF2D9A8F2C8079B200C29415 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF6943A22C705D620013DD68 /* Base */,
+				DF2D9A8E2C8079B200C29415 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		DF6943A52C705D620013DD68 /* Main.storyboard */ = {
+		DF2D9A922C8079B200C29415 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF6943A42C705D620013DD68 /* Base */,
+				DF2D9A912C8079B200C29415 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF2D9AB12C8079B200C29415 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF2D9AB02C8079B200C29415 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DF2D9AB32C8079B200C29415 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF2D9AB22C8079B200C29415 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF2D9AC32C8079B200C29415 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF2D9AC22C8079B200C29415 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DF2D9AC62C8079B200C29415 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF2D9AC52C8079B200C29415 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF2D9AE12C8079B200C29415 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF2D9AE02C8079B200C29415 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DF2D9AE32C8079B200C29415 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF2D9AE22C8079B200C29415 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

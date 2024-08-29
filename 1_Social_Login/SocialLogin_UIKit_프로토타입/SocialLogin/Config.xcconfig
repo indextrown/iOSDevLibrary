@@ -1,0 +1,11 @@
+//
+//  Config.xcconfig
+//  SocialLogin
+//
+//  Created by 김동현 on 8/12/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+KAKAO_NATIVE_APP_KEY = 42b3f0c5b94fc94c8cf3fbd438836709
